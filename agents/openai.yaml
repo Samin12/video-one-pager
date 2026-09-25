@@ -1,0 +1,4 @@
+interface:
+  display_name: "Video One-Pager"
+  short_description: "Plan a video on one page, then script it block by block"
+  default_prompt: "Use $video-one-pager to make the one-pager for my next video, then write the script blocks on my Heptabase board."
