@@ -47,6 +47,16 @@ The mutation commands take `--input <file|->` JSON, and `--help` doesn't show th
 - `read-layout --input`: `{whiteboardId, focus:{objects:[...]}}` or `{whiteboardId, viewport:{x, y, width, height}}`
 - `screenshot --input <same> -o out.png --force` renders a schematic PNG for checking the layout.
 
+## Link him to what you made
+
+End every delivery with clickable links to the new cards and the board, so he can open them straight from chat:
+
+- Card: `https://app.heptabase.com/<workspaceId>/card/<cardId>`
+- Whiteboard: `https://app.heptabase.com/<workspaceId>/whiteboard/<whiteboardId>`
+
+His workspace id is `9a1ab4c3-16e2-40dd-bca1-523f69715b28`. `note create` returns the card id. `whiteboard create`
+output may not parse with `jq .id`, so get a new board's id from `heptabase whiteboard list -n <name>`.
+
 ## Gotchas
 
 - **Unknown keys are dropped silently,** so a probe that happens to be valid runs for real. A

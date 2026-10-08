@@ -177,3 +177,4 @@ clearest signal of what he wants. Add anything new to references/samin-rules.md 
   bullets for what he presents on screen.
 - Heptabase: cards run left to right inside the section, lint shows no new issues on your objects, and
   none of his cards were overwritten.
+- Your reply links every new card and the board (URL format in heptabase-delivery.md).

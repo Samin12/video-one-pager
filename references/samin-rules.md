@@ -115,6 +115,12 @@ you wrote. See [../examples/genjutsu-video/README.md](../examples/genjutsu-video
 > "The way I make an outline, can you put that as a skill so we can replicate it into GitHub with all
 > the learnings and little things that we discussed?"
 
+## 8 Oct 2026: link the card
+
+> "Make a new Hektobase card, and then link me that. Remember this for next time when we're editing new videos."
+
+("Hektobase" is Heptabase, dictated.)
+
 ## Standing rules
 
 1. **The one-pager is written before filming.** Always use the planning voice, even for a video that's
@@ -148,3 +154,4 @@ you wrote. See [../examples/genjutsu-video/README.md](../examples/genjutsu-video
 20. **When he picks a variation**, he renames it, swaps it into the row, and folds the old block. Leave
     his layout the way he set it.
 21. **When the fix is a setup, name the whole setup** ("ChatGPT + Genjutsu"), not just the one tool.
+22. **Link what you made.** Every Heptabase delivery ends with links to the new card(s) and the board.
