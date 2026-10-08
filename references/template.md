@@ -1,4 +1,6 @@
-# Video One-Pager: [working title]
+# [Model] [Effort]: [working title]
+
+**Built with:** [model] ([model ID]), [effort] effort · video-one-pager skill · [tool] · [date]
 
 **Video idea:**
 
@@ -41,6 +43,7 @@
 
 <!--
 How to fill it (delete this comment in the real doc):
+- Title: the model and effort that wrote it, then the working title ("Opus 5.5 Extra High: ...").
 - Planning voice: written before filming, no results from after the fact.
 - Every point: a bold one-liner, then an example/story/analogy. Keep "Step by step (screenshare)" only
   when he will show it on screen; drop the line for concept points.

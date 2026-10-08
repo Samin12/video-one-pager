@@ -64,6 +64,10 @@ the blocks in Heptabase", "make a new variation of level one". Work out the stag
   videos are the best source of his voice and his reusable lines.
 - **Facts that change a viewer's decision** (prices, limits, availability): verify against a current
   source, and name the source in your chat reply, not in the doc.
+- **Programs the video sends people to** (a paid campaign, a creator marketplace): read the brand's own
+  brief. Its rules (eligibility, required tools, platform, countries, required bio or caption text)
+  become steps, and they can decide where a point goes. When two official sources disagree on a number,
+  bracket both in the doc and say so in chat.
 - Don't ask him for anything a tool can find. For things only he knows, put a `[bracketed placeholder]`
   in the doc rather than stopping to ask.
 
@@ -78,6 +82,11 @@ Use [references/template.md](references/template.md). What matters:
 - **The fields are his:** Video idea, Goal of video, Key things to create, Intro, Why this matters,
   Level 1-3, CTA END. Don't add titles, key takeaways, a goal per point or talking points unless he asks.
   When his skeleton and an older message disagree, the more recent one wins.
+- **Title it with the model and effort, and add a Built with line.** More than one agent can draft the
+  same video, so the `# heading` (file and card) starts with the model and effort that wrote it
+  ("Opus 5.5 Extra High: <working title>"), and the line under it reads
+  `**Built with:** <model> (<model ID>), <effort> effort · video-one-pager skill · <tool> · <date>`.
+  Use the effort he names or the session's setting; if you can't tell, bracket it.
 - **Key things to create** is his prep list: the builds and demos, proof assets (a backtest, a
   before/after), cost screenshots, prompts for the description and classroom. Say when something
   already exists ("already made; pull the raw clip too for the before/after").
@@ -101,8 +110,10 @@ Use [references/template.md](references/template.md). What matters:
   anything only he can supply. Never invent a result, a number or a personal story.
 - **CTA END**, not Close: the "watch this next" line that points to his next video. No recap unless he
   asks for one.
-- Save it locally (he keeps these in `~/decisons/video-one-pager/<slug>.md`) and show it in chat. He
-  usually pastes approved one-pagers onto his board himself; only create a card when he asks.
+- Save it locally (he keeps these in `~/decisons/video-one-pager/<slug>.md`) and show it in chat. If
+  that file already exists and you didn't write it, another agent may be on the same video: save yours
+  as `<slug>-v2.md` instead of overwriting it. He usually pastes approved one-pagers onto his board
+  himself; only create a card when he asks.
 
 ## 3. Fold in his notes
 
@@ -169,6 +180,7 @@ clearest signal of what he wants. Add anything new to references/samin-rules.md 
 ## Before you hand anything back
 
 - Field names match the template, or his latest edits to it.
+- The title starts with the model and effort, and the Built with line sits right under it.
 - Planning voice throughout, with no after-the-fact numbers.
 - Every point has an example or story; steps appear only where he screenshares.
 - Nothing is invented: results, costs and pipeline steps are sourced or bracketed.

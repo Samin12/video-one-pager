@@ -60,3 +60,6 @@ The mutation commands take `--input <file|->` JSON, and `--help` doesn't show th
   px and 437 words to 1,679 px.
 - Sections don't grow on their own. Resize the section when you add a card below.
 - `lint` also lists his older overlaps. Only issues involving your objects are yours to fix.
+- **Another agent can be on the same board.** On 8 Oct 2026, copies of another agent's card appeared
+  between the layout read and the placement, so the new card landed on top of them. Read the layout
+  again right after placing; if your card overlaps something new, move only your card.
