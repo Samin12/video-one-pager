@@ -115,6 +115,19 @@ you wrote. See [../examples/genjutsu-video/README.md](../examples/genjutsu-video
 > "The way I make an outline, can you put that as a skill so we can replicate it into GitHub with all
 > the learnings and little things that we discussed?"
 
+## 8 Oct 2026: model and effort in the title
+
+The AI influencer video (Higgsfield) had two one-pager drafts from different agents on the same board.
+After the Opus 5.5 card went up, he asked:
+
+> "give it a title like opus 5.5 extra high remmeber to put this meta data somwehre like built with"
+
+The card became "Opus 5.5 Extra High: Build a Viral AI Influencer and Get Paid for the Views
+(Higgsfield)", with this line under the title:
+
+> **Built with:** Claude Opus 5.5 (claude-opus-5-5), extra high effort · video-one-pager skill · Claude
+> Code · 8 Oct 2026
+
 ## Standing rules
 
 1. **The one-pager is written before filming.** Always use the planning voice, even for a video that's
@@ -148,3 +161,8 @@ you wrote. See [../examples/genjutsu-video/README.md](../examples/genjutsu-video
 20. **When he picks a variation**, he renames it, swaps it into the row, and folds the old block. Leave
     his layout the way he set it.
 21. **When the fix is a setup, name the whole setup** ("ChatGPT + Genjutsu"), not just the one tool.
+22. **Say which model wrote it.** The one-pager's title starts with the model and effort ("Opus 5.5 Extra
+    High: ..."), and a `**Built with:**` line under the title gives the model, model ID, effort, skill,
+    tool and date.
+23. **Don't overwrite another agent's draft.** If the one-pager file or card already exists and you
+    didn't write it, save yours alongside it (`<slug>-v2.md`, a new card) and leave theirs alone.
